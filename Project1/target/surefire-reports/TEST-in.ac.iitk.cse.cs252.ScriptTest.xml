@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="1" name="in.ac.iitk.cse.cs252.ScriptTest" time="31.108" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/anmol_porwal/Desktop/sem 5/lab 2/v/Project1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/anmol_porwal/Desktop/sem 5/lab 2/v/Project1"/>
+    <property name="java.runtime.version" value="1.8.0_131-8u131-b11-2ubuntu1.16.04.3-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/opt/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.8.0-54-generic"/>
+    <property name="user.home" value="/home/anmol_porwal"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="anmol_porwal"/>
+    <property name="java.class.path" value="/opt/maven/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/opt/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="in.ac.iitk.cse.cs252.ScriptTest" name="printAddress" time="4.07"/>
+  <testcase classname="in.ac.iitk.cse.cs252.ScriptTest" name="testMultiSig" time="27.038">
+    <failure message="org.bitcoinj.core.RejectedTransactionException: Reject: tx 8ed3e7afc298ef65684fccdbe4d327a7e9e99be2038cd66a274c65d93e6aa0f0 for reason &apos;non-mandatory-script-verify-flag (Dummy CHECKMULTISIG argument must be zero)&apos; (64)" type="java.lang.AssertionError">java.lang.AssertionError: org.bitcoinj.core.RejectedTransactionException: Reject: tx 8ed3e7afc298ef65684fccdbe4d327a7e9e99be2038cd66a274c65d93e6aa0f0 for reason &apos;non-mandatory-script-verify-flag (Dummy CHECKMULTISIG argument must be zero)&apos; (64)
+	at org.junit.Assert.fail(Assert.java:88)
+	at in.ac.iitk.cse.cs252.ScriptTest.testMultiSig(ScriptTest.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>21:46:27.510 [main] INFO  in.ac.iitk.cse.cs252.ScriptTest - Running on testnet.
+21:46:27.512 [main] INFO  in.ac.iitk.cse.cs252.transactions.ScriptTransaction - Starting to sync blockchain. This might take a few minutes
+21:46:28.441 [main] INFO  in.ac.iitk.cse.cs252.transactions.ScriptTransaction - Synced blockchain.
+21:46:28.442 [main] INFO  in.ac.iitk.cse.cs252.transactions.ScriptTransaction - You&apos;ve got 1.29196 BTC in your pocket
+21:46:29.505 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:29.505 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+6 PUSHDATA(72)[3045022100bd0eb91d5e9f303ea6c487c16889da9ebfdb5c5e320a5bfa4693bd7195b8b8a302205622a031af74decc3cf8a1e437577b806aa71b27a7a1c877712601fbfe37744101] PUSHDATA(71)[3044022068b0e5f93343c69ebb00d14454db2313cb1a1dca0d94f258bc4dfaf76f2d343002204d1ff5f5800118f4fa6efc1f02ed60d82a47dbcd70386cf404dc37324667557901] PUSHDATA(33)[03e390856a0692df3fdd0014635f00d3cdadc73f020c15c12cb782dfdb76d61b46]
+21:46:29.668 [main] INFO  in.ac.iitk.cse.cs252.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
+0100000002f8cbc77b5fc886f115d7f48f6d1980bece5b967fa6e46ac20800c0a05169c490000000006a47304402207cba400a4d8d75ffaff97e3de185ad4fd56015a939e0da637b911723b2ad473502203d9046c2860d7f5f55e1bc1e38f49dd49b74db3456697e879a85afb70846afa6012103563ceea73d977106ad9de098074fc51bff1d1ce75cc17ae99c6c97d8ec0b3511ffffffff8975ad968220b9759f0c2109070cbd3f9e0875a4b5266aa8727ba13a9add8f8e000000006b483045022100b1149da23d2f369f2ccaca020c89e812057f1aab1798a08f58367214f6eca2b602207c4edc453c555a89d8cef569531daf6a1cead965efc67e22d834df75a347fd80012103a5e0d462a338195f07792cae6f64c57e237860379aef7ed12a271ad599ed395affffffff0240420f00000000008276a9144937de3f203d9dd7eda6f3d8e22e8f79e3102cba88ad5121032998ed6bb4137edd7eb1df92ecf29d8a76267c0575858a6c809f419c666710e521026136651f647309bdf5afdab50706ad2456fe804761d6241c27993e26a834a06321038ccd1427223cb975573f9c4bbc17fe0142c399f992928117e603bfbb2bfdbfff53aed8230900000000001976a9143ea1bd592028e9188db931a6267b8e3891a443ef88ac00000000
+21:46:29.709 [NioClientManager] WARN  org.bitcoinj.core.PeerSocketHandler - [144.76.75.197]:18333 - 
+org.bitcoinj.core.ProtocolException: Peer does not have a copy of the block chain.
+	at org.bitcoinj.core.Peer.processVersionMessage(Peer.java:458) ~[bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.core.Peer.processMessage(Peer.java:375) ~[bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.core.PeerSocketHandler.receiveBytes(PeerSocketHandler.java:180) [bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.net.ConnectionHandler.handleKey(ConnectionHandler.java:223) [bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.net.NioClientManager.handleKey(NioClientManager.java:86) [bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.net.NioClientManager.run(NioClientManager.java:122) [bitcoinj-core-0.13.1.jar:?]
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:60) [guava-16.0.1.jar:?]
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93) [guava-16.0.1.jar:?]
+	at org.bitcoinj.utils.ContextPropagatingThreadFactory$1.run(ContextPropagatingThreadFactory.java:35) [bitcoinj-core-0.13.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+21:46:29.709 [NioClientManager] WARN  org.bitcoinj.core.PeerSocketHandler - [144.76.75.197]:18333 - 
+org.bitcoinj.core.ProtocolException: Peer does not have a copy of the block chain.
+	at org.bitcoinj.core.Peer.processVersionMessage(Peer.java:458) ~[bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.core.Peer.processMessage(Peer.java:375) ~[bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.core.PeerSocketHandler.receiveBytes(PeerSocketHandler.java:180) [bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.net.ConnectionHandler.handleKey(ConnectionHandler.java:223) [bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.net.NioClientManager.handleKey(NioClientManager.java:86) [bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.net.NioClientManager.run(NioClientManager.java:122) [bitcoinj-core-0.13.1.jar:?]
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:60) [guava-16.0.1.jar:?]
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93) [guava-16.0.1.jar:?]
+	at org.bitcoinj.utils.ContextPropagatingThreadFactory$1.run(ContextPropagatingThreadFactory.java:35) [bitcoinj-core-0.13.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+21:46:29.716 [NioClientManager] WARN  org.bitcoinj.net.ConnectionHandler - Error handling SelectionKey: java.lang.IllegalStateException
+21:46:29.716 [NioClientManager] WARN  org.bitcoinj.net.ConnectionHandler - Error handling SelectionKey: java.lang.IllegalStateException
+21:46:29.741 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [46.59.13.35]:18333: URGENT: Alert key compromised, upgrade required
+21:46:29.741 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [46.59.13.35]:18333: URGENT: Alert key compromised, upgrade required
+21:46:30.910 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.ConnectException: Connection refused
+21:46:30.910 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.ConnectException: Connection refused
+21:46:31.068 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:31.068 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:31.089 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:31.089 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:31.100 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:31.100 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:31.507 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [81.169.217.181]:18333: URGENT: Alert key compromised, upgrade required
+21:46:31.507 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [81.169.217.181]:18333: URGENT: Alert key compromised, upgrade required
+21:46:31.564 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [93.190.142.127]:18333: URGENT: Alert key compromised, upgrade required
+21:46:31.564 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [93.190.142.127]:18333: URGENT: Alert key compromised, upgrade required
+21:46:32.733 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [13.73.30.141]:18333: URGENT: Alert key compromised, upgrade required
+21:46:32.733 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [13.73.30.141]:18333: URGENT: Alert key compromised, upgrade required
+21:46:33.537 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.ConnectException: Connection refused
+21:46:33.537 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.ConnectException: Connection refused
+21:46:33.909 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:33.909 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:33.920 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:33.920 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:34.378 [NioClientManager] WARN  org.bitcoinj.core.PeerSocketHandler - [188.226.202.220]:18333 - 
+org.bitcoinj.core.ProtocolException: Peer does not have a copy of the block chain.
+	at org.bitcoinj.core.Peer.processVersionMessage(Peer.java:458) ~[bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.core.Peer.processMessage(Peer.java:375) ~[bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.core.PeerSocketHandler.receiveBytes(PeerSocketHandler.java:180) [bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.net.ConnectionHandler.handleKey(ConnectionHandler.java:223) [bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.net.NioClientManager.handleKey(NioClientManager.java:86) [bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.net.NioClientManager.run(NioClientManager.java:122) [bitcoinj-core-0.13.1.jar:?]
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:60) [guava-16.0.1.jar:?]
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93) [guava-16.0.1.jar:?]
+	at org.bitcoinj.utils.ContextPropagatingThreadFactory$1.run(ContextPropagatingThreadFactory.java:35) [bitcoinj-core-0.13.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+21:46:34.378 [NioClientManager] WARN  org.bitcoinj.core.PeerSocketHandler - [188.226.202.220]:18333 - 
+org.bitcoinj.core.ProtocolException: Peer does not have a copy of the block chain.
+	at org.bitcoinj.core.Peer.processVersionMessage(Peer.java:458) ~[bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.core.Peer.processMessage(Peer.java:375) ~[bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.core.PeerSocketHandler.receiveBytes(PeerSocketHandler.java:180) [bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.net.ConnectionHandler.handleKey(ConnectionHandler.java:223) [bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.net.NioClientManager.handleKey(NioClientManager.java:86) [bitcoinj-core-0.13.1.jar:?]
+	at org.bitcoinj.net.NioClientManager.run(NioClientManager.java:122) [bitcoinj-core-0.13.1.jar:?]
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:60) [guava-16.0.1.jar:?]
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93) [guava-16.0.1.jar:?]
+	at org.bitcoinj.utils.ContextPropagatingThreadFactory$1.run(ContextPropagatingThreadFactory.java:35) [bitcoinj-core-0.13.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+21:46:34.380 [NioClientManager] WARN  org.bitcoinj.net.ConnectionHandler - Error handling SelectionKey: java.lang.IllegalStateException
+21:46:34.380 [NioClientManager] WARN  org.bitcoinj.net.ConnectionHandler - Error handling SelectionKey: java.lang.IllegalStateException
+21:46:35.249 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [13.75.119.223]:18333: URGENT: Alert key compromised, upgrade required
+21:46:35.249 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [13.75.119.223]:18333: URGENT: Alert key compromised, upgrade required
+21:46:36.387 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:36.387 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.216 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.216 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.217 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.217 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.217 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.217 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.266 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.266 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.267 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.267 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.267 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.267 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.267 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.267 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.268 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.268 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.268 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.268 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.986 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.986 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.987 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.987 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.987 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:49.987 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:50.035 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:50.035 [NioClientManager] WARN  org.bitcoinj.net.NioClientManager - Failed to connect with exception: java.net.SocketException: Network is unreachable
+21:46:50.187 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - Performing thread fixup: you are accessing bitcoinj via a thread that has not had any context set on it.
+21:46:50.187 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - Performing thread fixup: you are accessing bitcoinj via a thread that has not had any context set on it.
+21:46:50.187 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - This error has been corrected for, but doing this makes your app less robust.
+21:46:50.187 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - This error has been corrected for, but doing this makes your app less robust.
+21:46:50.187 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - You should use Context.propagate() or a ContextPropagatingThreadFactory.
+21:46:50.187 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - You should use Context.propagate() or a ContextPropagatingThreadFactory.
+21:46:50.187 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - Please refer to the user guide for more information about this.
+21:46:50.187 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - Please refer to the user guide for more information about this.
+21:46:50.188 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [192.41.136.217]:18333: URGENT: Alert key compromised, upgrade required
+21:46:50.188 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [192.41.136.217]:18333: URGENT: Alert key compromised, upgrade required
+21:46:50.247 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [85.214.138.123]:18333: URGENT: Alert key compromised, upgrade required
+21:46:50.247 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [85.214.138.123]:18333: URGENT: Alert key compromised, upgrade required
+21:46:51.261 [NioClientManager] ERROR org.bitcoinj.core.Peer - [52.29.69.203]:18333 /Satoshi:0.11.1/: Received Reject: tx 65da17e53587ca490ad60c0df22ee64d4f5f6792fd7d2c8937865e490a8a0258 for reason &apos;non-mandatory-script-verify-flag (No error)&apos; (64)
+21:46:51.261 [NioClientManager] ERROR org.bitcoinj.core.Peer - [52.29.69.203]:18333 /Satoshi:0.11.1/: Received Reject: tx 65da17e53587ca490ad60c0df22ee64d4f5f6792fd7d2c8937865e490a8a0258 for reason &apos;non-mandatory-script-verify-flag (No error)&apos; (64)
+21:46:51.343 [NioClientManager] ERROR org.bitcoinj.core.Peer - [54.251.146.205]:18333 /BitcoinUnlimited:1.0.1.3(EB16; AD12)/: Received Reject: tx 65da17e53587ca490ad60c0df22ee64d4f5f6792fd7d2c8937865e490a8a0258 for reason &apos;non-mandatory-script-verify-flag (Dummy CHECKMULTISIG argument must be zero)&apos; (64)
+21:46:51.343 [NioClientManager] ERROR org.bitcoinj.core.Peer - [54.251.146.205]:18333 /BitcoinUnlimited:1.0.1.3(EB16; AD12)/: Received Reject: tx 65da17e53587ca490ad60c0df22ee64d4f5f6792fd7d2c8937865e490a8a0258 for reason &apos;non-mandatory-script-verify-flag (Dummy CHECKMULTISIG argument must be zero)&apos; (64)
+21:46:51.494 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [47.92.89.120]:18333: URGENT: Alert key compromised, upgrade required
+21:46:51.494 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [47.92.89.120]:18333: URGENT: Alert key compromised, upgrade required
+21:46:51.575 [NioClientManager] WARN  org.bitcoinj.core.TransactionBroadcast - Threshold for considering broadcast rejected has been reached (3/2)
+21:46:51.575 [NioClientManager] WARN  org.bitcoinj.core.TransactionBroadcast - Threshold for considering broadcast rejected has been reached (3/2)
+21:46:51.576 [NioClientManager] ERROR org.bitcoinj.core.Peer - [188.130.244.12]:18333 /Satoshi:0.11.0/: Received Reject: tx 65da17e53587ca490ad60c0df22ee64d4f5f6792fd7d2c8937865e490a8a0258 for reason &apos;non-mandatory-script-verify-flag (No error)&apos; (64)
+21:46:51.576 [NioClientManager] ERROR org.bitcoinj.core.Peer - [188.130.244.12]:18333 /Satoshi:0.11.0/: Received Reject: tx 65da17e53587ca490ad60c0df22ee64d4f5f6792fd7d2c8937865e490a8a0258 for reason &apos;non-mandatory-script-verify-flag (No error)&apos; (64)
+21:46:51.753 [NioClientManager] ERROR org.bitcoinj.core.Peer - [46.59.13.35]:18333 /Satoshi:0.15.0/: Received Reject: tx 65da17e53587ca490ad60c0df22ee64d4f5f6792fd7d2c8937865e490a8a0258 for reason &apos;non-mandatory-script-verify-flag (Dummy CHECKMULTISIG argument must be zero)&apos; (64)
+21:46:51.753 [NioClientManager] ERROR org.bitcoinj.core.Peer - [46.59.13.35]:18333 /Satoshi:0.15.0/: Received Reject: tx 65da17e53587ca490ad60c0df22ee64d4f5f6792fd7d2c8937865e490a8a0258 for reason &apos;non-mandatory-script-verify-flag (Dummy CHECKMULTISIG argument must be zero)&apos; (64)
+21:46:51.803 [NioClientManager] ERROR org.bitcoinj.core.Peer - [78.47.147.60]:18333 /Satoshi:0.11.2/: Received Reject: tx 65da17e53587ca490ad60c0df22ee64d4f5f6792fd7d2c8937865e490a8a0258 for reason &apos;non-mandatory-script-verify-flag (No error)&apos; (64)
+21:46:51.803 [NioClientManager] ERROR org.bitcoinj.core.Peer - [78.47.147.60]:18333 /Satoshi:0.11.2/: Received Reject: tx 65da17e53587ca490ad60c0df22ee64d4f5f6792fd7d2c8937865e490a8a0258 for reason &apos;non-mandatory-script-verify-flag (No error)&apos; (64)
+21:46:52.690 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [5.19.5.127]:18333: URGENT: Alert key compromised, upgrade required
+21:46:52.690 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [5.19.5.127]:18333: URGENT: Alert key compromised, upgrade required
+21:46:52.975 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [138.201.138.148]:18333: URGENT: Alert key compromised, upgrade required
+21:46:52.975 [NioClientManager] WARN  org.bitcoinj.core.Peer - Received alert with invalid signature from peer [138.201.138.148]:18333: URGENT: Alert key compromised, upgrade required
+21:46:54.032 [main] INFO  in.ac.iitk.cse.cs252.transactions.ScriptTransaction - Broadcasted transaction: 03401f69f9f7fc4bbbed3017b86b33f4e469d39f4b162273322ce07060c4aac3
+21:46:54.032 [main] INFO  in.ac.iitk.cse.cs252.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
+0100000001c3aac46070e02c327322164b9fd369e4f4336bb81730edbb4bfcf7f9691f400300000000b456483045022100bd0eb91d5e9f303ea6c487c16889da9ebfdb5c5e320a5bfa4693bd7195b8b8a302205622a031af74decc3cf8a1e437577b806aa71b27a7a1c877712601fbfe37744101473044022068b0e5f93343c69ebb00d14454db2313cb1a1dca0d94f258bc4dfaf76f2d343002204d1ff5f5800118f4fa6efc1f02ed60d82a47dbcd70386cf404dc373246675579012103e390856a0692df3fdd0014635f00d3cdadc73f020c15c12cb782dfdb76d61b46ffffffff0100350c00000000001976a9149aedbcbd800f3326ffa1638005896c4ea84faeaf88ac00000000
+21:46:54.288 [NioClientManager] ERROR org.bitcoinj.core.Peer - [54.251.146.205]:18333 /BitcoinUnlimited:1.0.1.3(EB16; AD12)/: Received Reject: tx 8ed3e7afc298ef65684fccdbe4d327a7e9e99be2038cd66a274c65d93e6aa0f0 for reason &apos;non-mandatory-script-verify-flag (Dummy CHECKMULTISIG argument must be zero)&apos; (64)
+21:46:54.288 [NioClientManager] ERROR org.bitcoinj.core.Peer - [54.251.146.205]:18333 /BitcoinUnlimited:1.0.1.3(EB16; AD12)/: Received Reject: tx 8ed3e7afc298ef65684fccdbe4d327a7e9e99be2038cd66a274c65d93e6aa0f0 for reason &apos;non-mandatory-script-verify-flag (Dummy CHECKMULTISIG argument must be zero)&apos; (64)
+21:46:54.379 [NioClientManager] ERROR org.bitcoinj.core.Peer - [138.201.138.148]:18333 /Satoshi:0.14.2(bitcore)/: Received Reject: tx 8ed3e7afc298ef65684fccdbe4d327a7e9e99be2038cd66a274c65d93e6aa0f0 for reason &apos;non-mandatory-script-verify-flag (Dummy CHECKMULTISIG argument must be zero)&apos; (64)
+21:46:54.379 [NioClientManager] ERROR org.bitcoinj.core.Peer - [138.201.138.148]:18333 /Satoshi:0.14.2(bitcore)/: Received Reject: tx 8ed3e7afc298ef65684fccdbe4d327a7e9e99be2038cd66a274c65d93e6aa0f0 for reason &apos;non-mandatory-script-verify-flag (Dummy CHECKMULTISIG argument must be zero)&apos; (64)
+21:46:54.405 [NioClientManager] WARN  org.bitcoinj.core.TransactionBroadcast - Threshold for considering broadcast rejected has been reached (3/2)
+21:46:54.405 [NioClientManager] WARN  org.bitcoinj.core.TransactionBroadcast - Threshold for considering broadcast rejected has been reached (3/2)
+21:46:54.406 [NioClientManager] ERROR org.bitcoinj.core.Peer - [192.41.136.217]:18333 /Satoshi:0.14.2/: Received Reject: tx 8ed3e7afc298ef65684fccdbe4d327a7e9e99be2038cd66a274c65d93e6aa0f0 for reason &apos;non-mandatory-script-verify-flag (Dummy CHECKMULTISIG argument must be zero)&apos; (64)
+21:46:54.406 [NioClientManager] ERROR org.bitcoinj.core.Peer - [192.41.136.217]:18333 /Satoshi:0.14.2/: Received Reject: tx 8ed3e7afc298ef65684fccdbe4d327a7e9e99be2038cd66a274c65d93e6aa0f0 for reason &apos;non-mandatory-script-verify-flag (Dummy CHECKMULTISIG argument must be zero)&apos; (64)
+</system-out>
+    <system-err>java.util.concurrent.ExecutionException: org.bitcoinj.core.RejectedTransactionException: Reject: tx 8ed3e7afc298ef65684fccdbe4d327a7e9e99be2038cd66a274c65d93e6aa0f0 for reason &apos;non-mandatory-script-verify-flag (Dummy CHECKMULTISIG argument must be zero)&apos; (64)
+	at com.google.common.util.concurrent.AbstractFuture$Sync.getValue(AbstractFuture.java:299)
+	at com.google.common.util.concurrent.AbstractFuture$Sync.get(AbstractFuture.java:286)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:116)
+	at in.ac.iitk.cse.cs252.transactions.ScriptTransaction.sendTransaction(ScriptTransaction.java:91)
+	at in.ac.iitk.cse.cs252.ScriptTest.testTransaction(ScriptTest.java:74)
+	at in.ac.iitk.cse.cs252.ScriptTest.testMultiSig(ScriptTest.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.bitcoinj.core.RejectedTransactionException: Reject: tx 8ed3e7afc298ef65684fccdbe4d327a7e9e99be2038cd66a274c65d93e6aa0f0 for reason &apos;non-mandatory-script-verify-flag (Dummy CHECKMULTISIG argument must be zero)&apos; (64)
+	at org.bitcoinj.core.TransactionBroadcast$2.onPreMessageReceived(TransactionBroadcast.java:100)
+	at org.bitcoinj.core.Peer.processMessage(Peer.java:333)
+	at org.bitcoinj.core.PeerSocketHandler.receiveBytes(PeerSocketHandler.java:180)
+	at org.bitcoinj.net.ConnectionHandler.handleKey(ConnectionHandler.java:223)
+	at org.bitcoinj.net.NioClientManager.handleKey(NioClientManager.java:86)
+	at org.bitcoinj.net.NioClientManager.run(NioClientManager.java:122)
+	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:60)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at org.bitcoinj.utils.ContextPropagatingThreadFactory$1.run(ContextPropagatingThreadFactory.java:35)
+	at java.lang.Thread.run(Thread.java:748)
+</system-err>
+  </testcase>
+</testsuite>

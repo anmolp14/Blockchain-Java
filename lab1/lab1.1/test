@@ -1,0 +1,28 @@
+public void printCentreName(){
+        if(isValidCentre(centreCode)) {
+            try {
+                for ( Field f : ExamCentres.class.getDeclaredFields()){
+                    if((int)f.get(null) == centreCode){
+                        System.out.println(f.getName());
+                        break;
+                    }
+                }
+            }catch(Exception e){
+
+            }
+        }else{
+            System.out.println("Unknown");
+        }
+    }
+    public boolean isValidCentre(int centreCode){
+        boolean valid=false;
+        try{
+            for (Field i : ExamCentres.class.getDeclaredFields()){
+                if((int)i.get(null) == centreCode)
+                {valid=true;
+                    break;}
+            }
+        }catch(Exception e){
+        }
+        return valid;
+    }
